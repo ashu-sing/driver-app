@@ -1,0 +1,28 @@
+{
+  "name": "taxi-booking",
+  "version": "1.0.0",
+  "description": "a taxi booking app to learn nodejs paradigm",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Pulkit Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.2",
+    "twilio": "^4.11.2"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^2.0.22"
+  }
+}
